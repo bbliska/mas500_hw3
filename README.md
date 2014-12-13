@@ -1,7 +1,9 @@
 Flask Example - Get To Know : Global Voices
 ===========================================
 
-HW3: modified example to display 6 most recent stories. Also see blockDiagram.pdf. 
+HW3: modified example to display 6 most recent stories and store info in // retrieve info from a MongoDB.
+
+@bbliska
 
 Installation
 ------------
