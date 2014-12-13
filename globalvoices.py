@@ -22,6 +22,8 @@ def recent_stories_from(country):
     stories = []
     for details in content['responseData']['feed']['entries']:
         stories.append( {
+            #add country field
+            'country':details['country'],
             'title': details['title'],
             'link': details['link'],
             'author': details['author'],
